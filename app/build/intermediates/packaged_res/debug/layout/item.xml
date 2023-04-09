@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:src="@drawable/ic_stat_name"
+        android:background="#8e8e8e"
+        android:id="@+id/item1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:layout_marginStart="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="ID: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="example"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item2"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="이름: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="example"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="email: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="example"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/item4"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
